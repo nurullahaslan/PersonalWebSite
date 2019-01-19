@@ -1,0 +1,82 @@
+@import url('css/bootstrap.min.css');
+body{
+	background: url(../22.gif) no-repeat center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+#anasayfa h1,h2{
+	color: white;
+}
+#anasayfa{
+	padding-top: 5%;
+}
+#hakkimda{
+	margin-top: 2%;
+	border-radius: 5px;
+	text-align: center;
+	background-color: rgba(0,0,0,0.7);
+}
+
+#hakkimda p{
+	font-size: 150%;
+	margin-left: 25%;
+	margin-right: 25%;
+	color: white;
+	padding-bottom: 9%;
+}
+#hakkimda h1{
+	color: white;
+}
+.date{
+	float: right;
+	padding-right: 10px;
+}
+.entry{
+	margin-top: 2%;
+	border-radius: 5px;
+	background-color: rgba(0,0,0,0.7);
+	color: white;
+	font-size: 125%;
+	padding-bottom: 2%;
+	text-align: center;
+}
+.navbar_1{
+	color: black;
+}
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
+li a {
+    color: white;
+	text-decoration:none;
+	background-color: #00B3FF;
+	padding: 10px;
+	border-radius: 25px;
+	font-size:12pt;
+	
+}
+li a:hover:not(.active){
+	background-color:white;
+	color: #00b3ff;
+	
+}
+#active a{
+	background-color: #151515;
+	pointer-events: none;
+}
+#footer{
+	margin-top: 0.8%;
+	background-color: rgba(0,0,0,0.7);
+}
+#footer a{
+	padding-left: 5px;
+}

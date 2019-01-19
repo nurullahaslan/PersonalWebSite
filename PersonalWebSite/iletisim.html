@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.0.0.css" rel="stylesheet">
+	<link href="css/kisisel_site.css" rel="stylesheet">
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap-4.0.0.js"></script>
+	<title>İletişim</title>
+</head>
+
+<body>
+	<div class="col-sm-3 col-lg-12">
+	<nav class="navbar navbar-expand-lg" style=" background-color: black; border-radius: 100px; ">		
+  		<div class="navbar navbar-collapse">
+    		<ul class="nav navbar-nav">
+  				<li class="nav-item"><a class="nav-link" href="anasayfa.html">Anasayfa</a></li>
+				<li class="nav-item"><a class="nav-link" href="hakkimda.html">Hakkımda</a></li>
+  				<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+				<li class="nav-item" id="active"><a class="nav-link" href="iletisim.html">Iletişim</a></li>
+    		</ul>
+  		</div>
+	</nav>
+<!--Section: Contact v.2-->
+<section class="section" style="background-color: rgba(0,0,0,0.7); margin-top: -2%;">
+
+    <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center my-5">Bana Ulaş</h2>
+    <!--Section description-->
+    <p class="text-center w-responsive mx-auto mb-5 text-white">Herhangi bir sorunuz varsa bana aşağıdaki yollarla ulaşabilirsiniz.</p>
+
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="text-white">Adınız</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="text-white">Eposta Adresiniz</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="text-white">Konu</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message" class="text-white">Mesajınız</label>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </form>
+
+            <div class="text-center text-md-left">
+                <a class="btn btn-primary text-white" onclick="document.getElementById('contact-form').submit();">Yolla</a>
+            </div>
+            <div class="status"></div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li><i class="fa fa-map-marker fa-2x"></i>
+                    <p class="text-white">Yalova/Türkiye</p>
+                </li>
+
+                <li><i class="fa fa-phone mt-4 fa-2x"></i>
+                    <p class="text-white">+905425984400</p>
+                </li>
+
+                <li><i class="fa fa-envelope mt-4 fa-2x"></i>
+                    <p class="text-white">odunuzz@gmail.com</p>
+                </li>
+            </ul>
+        </div>
+        <!--Grid column-->
+
+    </div>
+
+</section>
+<!--Section: Contact v.2-->
+	<center>
+	<footer id="footer">
+		<a href="https://facebook.com/amacsiz0"><img src="face.png" width="40px" title="Facebook"></img></a>
+		<a href="https://twitter.com.com/nrllh.aslan"><img src="twitter.png" width="40px" title="Twitter"></img></a>
+		<a href="https://instagram.com/nrllh.aslan"><img src="insta.png" width="40px" title="İnstagram"></img></a>
+  		<a href="https://github.com/odunuzz"><img src="github.png" width="40px" title="Github"></img></a>
+	</footer>
+	</center>
+</body>
+</html>
